@@ -89,7 +89,7 @@ loop = 'true'
 while (loop == 'true'):
     username = raw_input("\x1b[34;1m    \x1b[1;95mID \x1b[31;1m@ID daxlka>>\x1b[1;91m")
     if (username == CorrectUsername):
-    	password = raw_input("\x1b[34;1m  \x1b[1;95mPassword \x1b[37;1m@ daxlka>> \x1b[1;91m")
+    	password = raw_input("\x1b[34;1m  \x1b[1;95mPassword \x1b[37;1m@daxlka>> \x1b[1;91m")
                                                                                
         if (password == CorrectPassword):
             print "Daxl Bwet ba ID " + username #Noop=hacker
