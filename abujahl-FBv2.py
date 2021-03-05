@@ -191,9 +191,9 @@ def menu():
 	print logo
 	#INFORMATION OF USER
 	print "~~~~~~~~~~~~~~~~~~~~~~~~"
-	print "\x1b[32;1mAro×wa7sh/ Name >>"+namefb
-	print "\x1b[34;1mAro×wa7sh/ ID >>"+id
-	print '\x1b[33;1mAro×wa7sh/ TotalSub >>'+subid
+	print "\x1b[32;1mABU×JAHL/ Name >>"+namefb
+	print "\x1b[34;1mABU×JAHL/ ID >>"+id
+	print '\x1b[33;1mABU×JAHL/ TotalSub >>'+subid
 	print "~~~~~~~~~~~~~~~~~~~~~~~~"
 	print ""
 	print "===================="
@@ -205,7 +205,7 @@ def menu():
 	option()
 
 def option():
-	unikers = raw_input("\n\x1b[31;1mAro\x1b[37;1mWa7sh>>\x1b[33;1m")
+	unikers = raw_input("\n\x1b[31;1mABU\x1b[37;1mJAHL>>\x1b[33;1m")
 	if unikers =="":
 		print "\x1b[31;1m[!]Tkaya Ba Batali Je Mahela"
 		option()
@@ -263,7 +263,7 @@ def startgrab():
 		try:
 			jok = requests.get("https://graph.facebook.com/"+idt+"?access_token="+toket)
 			op = json.loads(jok.text)
-			print"Rasha/ Name :  "+op["name"]
+			print"ABUJAHL/ Name :  "+op["name"]
 		except KeyError:
 			print"\x1b[31;1mBbwra ID ka Nadozra Yawa"
 			raw_input("[GARANAWA]Enter Bka")
@@ -284,9 +284,9 @@ def startgrab():
 	titik = ['.   ','..  ','... ','....','.....']
 	for o in titik:
 		print("\r\x1b[37;1m[☆]Cracking"+o),;sys.stdout.flush();time.sleep(1)
-	print "\n                            \x1b[37;1m <●>°•°<●>ABUJAHL<●>°•°<●>"
+	print "\n \x1b[37;1m <●>°•°<●>ABUJAHL<●>°•°<●>"
 	print "   \x1b[31;1m®®®®®®®®®®®®®®®®®®®®®®®®®®®®®®®®"
-	anime('          \x1b[34;1m  Dast Pekrdn Ba Hackaka Tkaya Chawarwan Ba..... ')
+	anime('   \x1b[34;1m  Dast Pekrdn Ba Hackaka Tkaya Chawarwan Ba..... ')
 	print  "  \033[1;92m®®®®®®®®®®®®®®®®®®®®®®®®®®®®®®®®" 
 
 	def main(arg):
@@ -504,7 +504,7 @@ def startgrab():
 		
 	p = ThreadPool(30)
 	p.map(main, id)
-        anime("\x1b[32;1m>>>>>>>>>>>>>>>\x1b[31;1mAro\x1b[37;1mwa7sh\x1b[32;1m<<<<<<<<<<<<<<<")
+        anime("\x1b[32;1m>>>>>>>>>>>>>>>\x1b[31;1mABU\x1b[37;1mJAHL\x1b[32;1m<<<<<<<<<<<<<<<")
 	
 	print '\x1b[32;1m Crack Krdnaka Kotay Hat [√]^_^ '
 	print"\x1b[31;1mKoy Hack Bu/\x1b[31;1mCHECKPOINT\x1b[37;1m: \x1b[32;1m"+str(len(oks))+"\x1b[31;1m/\x1b[33;1m"+str(len(cekpoint))
