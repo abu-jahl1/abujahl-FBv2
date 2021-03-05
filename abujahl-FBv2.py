@@ -76,7 +76,7 @@ print  """
 \x1b[31;1m@SNAPCHAT      ITZ_TAMO                  @                
 \x1b[31;1m@              FB HACKER                 @
 \x1b[37;1m==========================================
-
+"""
 
 RH = """
 \x1b[31;1m   __This Tool Create by ABUJAHL/\Your id is active
